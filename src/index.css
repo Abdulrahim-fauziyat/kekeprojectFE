@@ -1,0 +1,187 @@
+body {
+  background-color: rgb(237, 230, 242);
+}
+
+.navbar{
+  height: 80px;
+  background-color: #fff;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70vh;
+}
+
+.short-input {
+  width: 400px;
+  background-color: rgb(241, 240, 242);
+  font-size: 15px;
+  color: rgb(7, 1, 14);
+  font-weight: 30;
+}
+
+.reg {
+  width: 400px;
+  background-color: rgb(11, 2, 20);
+  color: white;
+}
+.reg:hover{
+  background-color: rgb(11, 2, 20);
+  color: white;
+}
+.parag {
+  color: rgb(11, 2, 20);
+  font-size: 17px;
+  font-weight: 30;
+}
+
+.tickets,.btn-next {
+  background-color: rgb(86, 7, 160);
+}
+.tickets,.btn-next:hover{
+   background-color: rgb(86, 7, 160);
+}
+.register {
+  background-color: rgb(241, 240, 242);
+  color: blueviolet;
+  font-weight: 700;
+}
+.btn-draft,.btn-next{
+  width: 150px;
+}
+.car,.btn-draft {
+  background-color: rgb(232, 219, 244);
+
+  border: solid rgb(36, 29, 43) 1px 1px 1px;
+}
+
+.number,
+.overview {
+  font-weight: 500;
+}
+
+.user {
+  background-color: #fff;
+  border: thin rgb(180, 180, 180) 1px;
+}
+.card-para {
+  font-size: 15px;
+}
+
+.stat-pill{
+  background-color: rgb(182, 244, 231);
+  color: rgb(45, 147, 126);
+  width: 25%;
+  height: 25px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.stats-pill{
+  background-color: rgb(252, 220, 220);
+  color: rgb(255, 131, 131);
+  width: 25%;
+  height: 25px;
+  text-align: center;
+  font-size: 12px;
+
+}
+.chart {
+  width: 100%;
+}
+
+.modal-dialog {
+  max-width: 900px;
+ 
+}
+
+.modal-content {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.form-select ,.flex-fill{
+  width: 400px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(241, 240, 242);
+  height: 40px;
+ 
+  font-size: 12px;
+}
+
+textarea.form-control {
+  height: 200px;
+}
+
+.long-input {
+  width: 100%;
+  height: 65px;
+  background-color: rgb(241, 240, 242);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.select-buttons {
+  font-size: 20px;
+}
+
+textarea {
+  background-color: rgb(241, 240, 242);
+  width: 100%;
+  border: thistle black 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+img.img-thumbnail {
+  border: none;
+  box-shadow: none;
+}
+.daily {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.analysis {
+  font-size: 15px;
+}
+
+.form-check {
+  background-color: white;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: solid rgb(224, 222, 222) 2px;
+  border-radius: 5px;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.radio-container input[type="radio"] {
+  width: 20px; /* Increase the width of the radio input */
+  height: 20px;
+  margin-right: 5px;
+}
+
+p.fw-bold.fs-6 {
+  font-size: 18px; /* Reduce the font size of the paragraph with the question */
+}
+
+.loading {
+  width: 100%;
+  height: 300px;
+}
